@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ludo Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="p12">
+            <div class="player1">
+                <h1>Player 1</h1>
+                <p>Score: <span id="score1">0</span></p>
+                <img id="diceImage1" src="placeholder.png" alt="" class="dice-image">
+                <button class="btn1" onclick="rollDice('player1')">Roll Dice</button>
+            </div>
+            <div class="player2">
+                <h1>Player 2</h1>
+                <p>Score: <span id="score2">0</span></p>
+                <img id="diceImage2" src="placeholder.png" alt="" class="dice-image">
+                <button class="btn1" onclick="rollDice('player2')">Roll Dice</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
